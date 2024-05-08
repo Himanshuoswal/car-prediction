@@ -42,6 +42,8 @@ elif brand_inp == 'Mercedes-Benz':
     model_list = find_model('Mercedes-Benz')
 elif brand_inp == 'Mitsubishi':
     model_list = find_model('Mitsubishi')
+elif brand_inp == 'Volkswagen':
+    model_list = find_model('Volkswagen')
 
 model_inp = st.selectbox('Select the model of the car', options=model_list)
 
